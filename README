@@ -1,0 +1,7 @@
+This is some *really* bad bash coding to summarize prefixes.
+
+I had this issue where I had an access-list with *lots* of prefixes in it, and 90% of them were contained in the covering prefix already in the set. I decided it would be a good idea to write something that would remove anything that had a covering prefix already in the list... And after 3 hours got as far as what you're seeing here.
+
+Then, a friend of mine showed me the "netmask" package in debian. Which basically does exactly what I was going to extend this to do.
+
+This is essentially vapourware now... Sorry!
